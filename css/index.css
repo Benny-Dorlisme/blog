@@ -1,0 +1,82 @@
+p,ul{
+    margin:0;
+    padding:0;
+    border:0;
+}
+html{
+    height:100%;
+}
+#logo{
+    font-family: "Old English Text MT";
+
+    font-size: 5em;
+}
+#page_header{
+    height: 22%;
+    text-align: center;
+    overflow: hidden;
+
+}
+#page_header_nav ul li{
+    list-style: none;
+    display: inline;
+    margin:0 3%;
+}
+#page_body{
+
+
+
+}
+#article_header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+#page_body p{
+width:75%;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: normal;
+    font-family: "ProximaNova", "Helvetica Neue", "Helvetica", Roboto, Arial, sans-serif;
+ }
+.article_img{
+
+
+}
+#politic_articles{
+
+}
+.article_author{
+    margin-bottom: 0;
+}
+.article_publish_datetime{
+
+    margin: 0;
+}
+body{
+    height:100%;
+}
+.column{
+    display:inline-block;
+    height:100%;
+    overflow-y: scroll;
+}
+.side_column{
+    width:25%;
+    margin:0;
+    padding:5px;
+    overflow-x: hidden;
+}
+#left_column{
+    float:left;
+    border-right:2px solid black;
+}
+#middle_column{
+    width:50%;
+    background-color:#D4D4D4;
+    overflow-x: hidden;
+}
+#right_column{
+    float:right;
+    border-left:2px solid black;
+}
